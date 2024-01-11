@@ -1,5 +1,6 @@
-print("Hello, Word!")
+import pyautogui
+import time 
 
-## caio bolol
-print(1234)
-print(321)
+time.sleep(5)
+
+print(pyautogui.position())
